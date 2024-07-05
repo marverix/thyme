@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "thyme"
+version = "0.1.0"
+description = "Manage your work time"
+authors = ["Marek Sierociński <mareksierocinski@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.12.3"
+holidays = "^0.52"
+python-dateutil = "^2.9.0.post0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
